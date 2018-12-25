@@ -1,1 +1,25 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>はじめての</title>
+    </head>
+  <script type="text/javascript" src="ncmb.min.jp" charset="utf-8"></script>
+  <script>
+    
+    var ncmb = new NCMB("cf1bee6c4b3453c34ce5aeddaab00e955b80570032ce6af87084db0d2a94cbad","43018ac054425f7422e7a5e06b4a43e18e61ab30622a43ffbb4d25c0f2ebaf0a");
+    
+    var TestClass = ncmb.DataStore("TestClass");
+    
+    var testClass = new TestClass();
+    testClass.set("message", "Hello, NCMB!");
+    testClass.save()
+    .then(function(){
+      
+    })
+    .catch(function(err){
+      
+    });
+  </script>
+  </html>
 
+    
